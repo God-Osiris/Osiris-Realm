@@ -5,6 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
     <title>Osiris's Realm</title>
 </head>
 <body>
@@ -17,10 +24,10 @@
             <span class="ml-3 text-xl">Osiris's Realm</span>
           </a>
           <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
-            <a class="mr-5 hover:text-white">Home</a>
-            <a class="mr-5 hover:text-white">Projects</a>
-            <a class="mr-5 hover:text-white">GitHub</a>
-            <a class="mr-5 hover:text-white">Contact</a>
+            <a href="#"class="mr-5 hover:text-white">Home</a>
+            <a href="#projects"class="mr-5 hover:text-white">Projects</a>
+            <a href="https://github.com/God-Osiris" class="mr-5 hover:text-white">GitHub</a>
+            <a href="#contactme"class="mr-5 hover:text-white">Contact</a>
           </nav>
           <button class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0" onclick="location.href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley';">Light Mode
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
@@ -44,7 +51,7 @@
                 I am working on a few projects and I love to game.
             </p>
             <div class="flex justify-center">
-              <button class="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">Join my Discord</button>
+              <button onclick="location.href = 'https://discord.gg/nDqzg7aS4A' " class="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">Join my Discord</button>
             </div>
           </div>
           <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
@@ -56,7 +63,7 @@
       <section class="text-gray-400 bg-gray-900 body-font">
         <div class="container px-5 py-24 mx-auto">
           <div class="flex flex-col text-center w-full mb-20">
-            <h1 class="text-2xl font-medium title-font mb-4 text-white tracking-widest">MY PROJECTS</h1>
+            <h1 class="text-2xl font-medium title-font mb-4 text-white tracking-widest" id="projects">MY PROJECTS</h1>
             <p class="lg:w-2/3 mx-auto leading-relaxed text-base">These are some of my projects I've been working on and I have the status added here as well. You may want to check on these often, they get updated regularly and you might become one of it's first users!</p>
           </div>
           <div class="flex flex-wrap -m-4">
@@ -82,7 +89,7 @@
                   <h3 class="text-gray-500 mb-3">Website - Almost complete</h3>
                   <p class="mb-4">This is a team project I am doing with the Vectify team, although I haven't actually done much yet, I manage the domain and hopefully the website in the future too.</p>
                   <span class="inline-flex">
-                    <a class="text-gray-500">
+                    <a href="https://discord.gg/JS5g2R7FmP" class="text-gray-500">
                       Join the Discord
                     </a>
                   </span>
@@ -96,8 +103,8 @@
       <section class="text-gray-400 bg-gray-900 body-font relative">
   <div class="container px-5 py-24 mx-auto">
     <div class="flex flex-col text-center w-full mb-12">
-      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">Contact Me</h1>
-      <p class="lg:w-2/3 mx-auto leading-relaxed text-base">You can email me using this form, or join my discord server (at the top)</p>
+      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white" id="contactme">Contact Me</h1>
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-base">You can email me using this form, or join my discord server (at the top). This doesn't work yet btw :(</p>
     </div>
     <div class="lg:w-1/2 md:w-2/3 mx-auto">
       <div class="flex flex-wrap -m-2">
